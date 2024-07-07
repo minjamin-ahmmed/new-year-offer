@@ -152,4 +152,112 @@ body{
     border:0.5px grey;
     border-style: dashed;
     
+    
+}
+
+/* address container starts here */
+.address-container{
+    background:linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    max-width: 1320px;
+    height: 482px;
+    margin:120px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.address-contents h3{
+    font-size: 32px;
+font-weight: 600;
+font-family: "Inter", sans-serif;
+margin-bottom: 25px;
+
+}
+
+.span{
+    color: rgb(255, 0, 0);
+}
+
+.btn-container{
+    margin-top: 48px;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px 16px 32px;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+
+}
+
+/* marketing container starts here */
+
+.marketing-container{
+    max-width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.marketing-container .left-column p{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.marketing-container .left-column .marketing-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.marketing-container .left-column h3{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.middle-column img{
+    
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.right-column h1{
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.right-column p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 47px;
+}
+
+.right-column{
+    background-image: url(../images/group-96.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
 }
