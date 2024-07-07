@@ -51,9 +51,14 @@ body{
 
 /* offer styles */
 .offer-container{
-   max-width: 802.9px;
-   max-height: 806px;
+    max-width: 802.9px;
+    max-height: 806px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 120px;
+
     
 
 }
@@ -92,5 +97,59 @@ body{
     margin-top: 100px;
     border: 0.5px dashed grey;
     height: 500px;
+    width: 802.9px;
+
+}
+.offer-contents-image img{
+    height: 100%;
+    width: 100%;
 }
 
+/* midnight styles starts here */
+.midnight-party-container{
+    max-width: 1320px;
+    height:600px;
+    margin: 0 auto;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/vector.png);
+    border-radius: 16px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    
+}
+
+.midnight-content .midnight-heading{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    margin-top: 126px;
+    margin-bottom: 24px;
+    margin-left: 126px;
+}
+
+.midnight-content .midnight-description{
+    color: rgba(255, 255, 255, 0.8);
+    font-family:"Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 48px;
+    margin-left: 126px;
+
+
+}
+
+.midnight-content .midnight-subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 126px;
+}
+
+.midnight-image{
+    margin-top: 68.12px;
+    margin-right: 108px;
+    border:0.5px grey;
+    border-style: dashed;
+    
+}
